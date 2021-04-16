@@ -1,2 +1,5 @@
-package entities;public class OrderStatus {
+package entities;
+
+public enum OrderStatus {
+    PENDING, DELIVERED;
 }
